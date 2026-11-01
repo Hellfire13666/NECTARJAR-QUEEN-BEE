@@ -1,5 +1,7 @@
 # 🐝 NECTARJAR // QUEEN BEE
 
+![NECTARJAR // QUEEN BEE repository banner](nectarjar7.png)
+
 ![Queen Bee Page Visits](https://vbr.nathanchung.dev/badge?page_id=Hellfire13666.NECTARJAR-QUEEN-BEE&color=FFD700&lcolor=080808&text=Page_Visits&style=flat-square)
 
 **GlitchByte Phantom Labs · Link discovery · HTTP checks · Lychee-style reporting**
