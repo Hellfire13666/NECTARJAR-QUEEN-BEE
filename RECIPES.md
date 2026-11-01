@@ -45,9 +45,23 @@ Do not include passwords, token values, session cookies, user identifiers, perso
 
 By default, report only redacted cookie metadata. Don't upload raw cookie values.
 
-## GitHub cover
+## Verified local example · Python.org
 
-The approved cover is **NECTARJAR // QUEEN BEE · Beast Honey Cookie Edition** (no Rosie), formatted at 1280 × 640 for the repository social preview. The image must be uploaded separately before the README can reference its repository path.
+The following is a **user-observed snapshot**, not fabricated demo data or a guarantee of future results:
+
+```text
+[200] https://www.python.org/downloads/android/
+[LINK GROUPS] Facebook=0 | External=135 | Assets=17 | Total=152
+152 Total | 152 Unique | 29 OK | 0 Errors | 0 Unsupported | 0 Redirects
+[COOKIE RESULTS] Lychee-shaped metadata (values redacted):
+[]
+```
+
+**Reading the snapshot:** 152 unique links were discovered. The checker reported 29 successful checks, not 152 successful checks. The empty cookie result means no cookie metadata appeared in this run. Counts vary with website contents and access.
+
+## Artwork
+
+The approved **Beast Honey Cookie Edition** artwork is included in this repository as [nectarjar7.png](nectarjar7.png) and appears at the top of the [README](README.md).
 
 ---
 GlitchByte Phantom Labs · Queen Bee edition
