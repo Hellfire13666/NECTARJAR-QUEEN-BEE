@@ -40,6 +40,17 @@ Creates a Linux application-menu entry and launches `HIVE.py` in a terminal. Run
 
 📖 **[Open the Queen Bee Recipe Vault](RECIPES.md)** for these three copy-paste commands, additional public-site examples, and explanations.
 
+
+### 🎨 Official Queen Bee desktop icon
+
+After installing the desktop launcher, paste this command to apply the approved `nectarjar7.png` artwork to its application-menu icon:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Hellfire13666/NECTARJAR-QUEEN-BEE/main/INSTALL-ICON.sh | bash
+```
+
+This preserves the working tool and creates a launcher backup before changing its icon. [View the icon installer](INSTALL-ICON.sh).
+
 ## 🐝 EASY RECIPES
 
 **Check another public website**
