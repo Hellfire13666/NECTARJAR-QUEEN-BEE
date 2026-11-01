@@ -2,48 +2,51 @@
 
 ![Queen Bee Page Visits](https://vbr.nathanchung.dev/badge?page_id=Hellfire13666.NECTARJAR-QUEEN-BEE&color=FFD700&lcolor=080808&text=Page_Visits&style=flat-square)
 
-**GlitchByte Phantom Labs • Live link harvests, HTTP checks, redirects, and visitor-cookie diagnostics**
+**GlitchByte Phantom Labs · Link discovery · HTTP checks · Lychee-style reporting**
 
 *Follow the links. Count the redirects. Bring home the honey.*
 
-NECTARJAR is a Python website link checker with a honey-gold terminal interface and a Lychee-inspired live status summary.
+NECTARJAR is a Python public-link checker with a honey-gold terminal interface, live link and HTTP status output, and privacy-conscious cookie metadata reporting.
 
+## 🚀 QUICK START · ONE COPY, ONE PASTE
 
-## 🐝 Quick recipes
-
-The approved local edition can be started from the folder containing `NECTARJAR.py`:
+Run from the folder containing `NECTARJAR.py`:
 
 ```bash
 python3 NECTARJAR.py 'https://www.python.org/' --check --lychee-style
 ```
 
-**More beginner examples:** [Open RECIPES.md](RECIPES.md), including a public Facebook Page example, source-status explanations, and privacy rules. The source package is not yet published here, so these commands require the approved local edition.
+Change the public URL to a website you own or are authorized to check. **This repository is not yet an installable release:** the audited source and tests are still being prepared. The command works only with the approved local edition.
 
-**Approved repository artwork:** NECTARJAR // QUEEN BEE · Beast Honey Cookie Edition, 1280 × 640, no Rosie. The binary artwork is pending repository upload; this README does not point at an absent image.
+## 🐝 EASY RECIPES
 
-## Release status
+**Check another public website**
 
-The **repository homepage is being prepared**. The approved local edition has been tested, but the complete source package has **not yet been published here**. Do not treat the repository as an installable release until the reviewed source and test suite appear.
+```bash
+python3 NECTARJAR.py 'https://example.com/' --check --lychee-style
+```
+
+**Check a public Facebook Page if permitted** (availability depends on Meta's access restrictions)
+
+```bash
+python3 NECTARJAR.py 'https://www.facebook.com/Meta' --check --lychee-style
+```
+
+📖 **[Open the complete beginner recipes](RECIPES.md)** for more examples, result explanations and privacy notes.
 
 ## What Queen Bee does
 
-- Streams discovered public links and HTTP status results in the terminal
-- Summarizes total, unique, successful, errored, unsupported, and redirected links
-- Groups public-page, external, and static-asset links
-- Reports website-issued cookie metadata for the crawler's *own client context*
-- Keeps ordinary cookie metadata output redacted by default
+- Prints discovered links and HTTP response statuses in the terminal
+- Summarizes successful checks, errors and redirects
+- Classifies public-page, external and asset links
+- Reports redacted metadata for cookies issued to the tool's **own** client context
+- Supports Lychee-style structured status output
 
-Cookie values should not be copied into GitHub issues, screenshots, reports, or documentation. Cookies received while visiting a public profile are not cookies belonging to the profile owner.
+**Privacy:** Never publish session-cookie values, secrets, private case material or personal computer paths. HTTP 200 alone does not verify any Facebook post or private content. Respect throttling and access controls.
 
-## Planned quick start
+## Release status
 
-After source publication, from the directory containing `NECTARJAR.py`:
-
-```bash
-python3 NECTARJAR.py 'https://www.python.org/' --check --lychee-style
-```
-
-**Release gate:** publish only audited, matching source, tests, privacy-safe examples, and the Honey Vault.
+The full source package and tests have **not yet been published in this repository**. Release only the audited source, tests, documentation and matching approved artwork.
 
 ---
-Maintained by **Hellfire13666** • GlitchByte Phantom Labs
+Maintained by **Hellfire13666** · GlitchByte Phantom Labs
