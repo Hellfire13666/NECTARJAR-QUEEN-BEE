@@ -10,24 +10,25 @@
 
 NECTARJAR is a Python public-link checker with a honey-gold terminal interface, live link and HTTP status output, and privacy-conscious cookie metadata reporting.
 
-## 📦 INSTALLATION · ALL DEVICES
+## 🚀 ONE-PASTE INSTALLATION STATUS
 
-**Release status:** The approved local Queen Bee edition works, but its complete audited source and tests have **not been published here yet**. A one-paste installer that actually installs Queen Bee cannot work until that release is available. No fake installer or broken download links.
+**Not available yet.** This repository currently contains the banner, documentation and recipes, **but not `NECTARJAR.py` or a full tested release**. A working download-and-install command cannot be supplied until those files are published. Do not paste an installer that claims otherwise.
 
-| Device | Installation plan |
-| --- | --- |
-| **Linux terminals** | One copy-paste command to fetch a versioned, verified release and run it, once published |
-| **Windows (PowerShell)** | A separate one-paste command for the same verified release |
-| **Android (Termux)** | A phone-friendly installation recipe once tested on Termux |
-| **iPhone / iPad** | GitHub README and reports are viewable in a browser; native terminal installation isn't currently supported or verified |
+If you already have the tested Queen Bee folder locally, these are real copy-paste run recipes. Open a terminal inside that folder.
 
-The installation commands will be added **after** the source package is published and verified. We will not ask beginners to run remote scripts blindly. All commands will show what they download, avoid writing personal details to reports, and preserve existing installs.
-
-**Already have the local program?** From its folder, run:
+**Recipe 1 · Python.org live link check**
 
 ```bash
 python3 NECTARJAR.py 'https://www.python.org/' --check --lychee-style
 ```
+
+**Recipe 2 · Example.com website check**
+
+```bash
+python3 NECTARJAR.py 'https://example.com/' --check --lychee-style
+```
+
+**Publication needed for a true installer:** upload the reviewed `NECTARJAR.py`, its supporting modules and tests, then publish the verified release archive. A separate one-paste installer can then be linked here for Linux and other tested platforms.
 
 ## 🐝 EASY RECIPES
 
