@@ -34,7 +34,21 @@ python3 NECTARJAR.py 'https://example.com/' --check --lychee-style
 python3 NECTARJAR.py 'https://www.facebook.com/Meta' --check --lychee-style
 ```
 
-📖 **[Open the complete beginner recipes](RECIPES.md)** for more examples, result explanations and privacy notes.
+📖 **[Open the complete beginner recipes](RECIPES.md)** for more examples, observed results, explanations and privacy notes.
+
+## 🍯 Real terminal results
+
+Captured during a local Python.org check with the approved edition:
+
+```text
+[200] https://www.python.org/downloads/android/
+[LINK GROUPS] Facebook=0 | External=135 | Assets=17 | Total=152
+152 Total | 152 Unique | 29 OK | 0 Errors | 0 Unsupported | 0 Redirects
+[COOKIE RESULTS] Lychee-shaped metadata (values redacted):
+[]
+```
+
+**Observed snapshot, not a live feed.** Queen Bee discovered 152 unique links and reported 29 successful HTTP checks. The empty cookie list does not expose any cookie values. Results may change between runs.
 
 ## What Queen Bee does
 
