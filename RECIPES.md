@@ -1,6 +1,36 @@
 # 🐝 NECTARJAR // QUEEN BEE · Easy Recipes
 
-> **Release status:** These examples describe the approved local edition. The full audited source is not yet published in this repository. Run them only in a folder containing `NECTARJAR.py`.
+> **Release status:** v1.0.0 is published. Linux installation has passed 38 offline tests on one computer. Use the three commands below without manually downloading a ZIP.
+
+## 🍯 THREE ONE-PASTE COMMANDS · LINUX
+
+The [v1.0.0 release](https://github.com/Hellfire13666/NECTARJAR-QUEEN-BEE/releases/tag/v1.0.0) is published with the audited ZIP. **The Linux installer has been run successfully on one Linux computer and completed all 38 offline tests.** Other platforms and fresh machines have not yet been verified.
+
+### 1. Install Queen Bee (no manual ZIP download)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Hellfire13666/NECTARJAR-QUEEN-BEE/main/INSTALL.sh | bash
+```
+
+Downloads the published ZIP, checks its SHA-256 digest, runs offline tests and installs in a separate folder. Requires `curl` and Python 3.
+
+### 2. Open a live example scan
+
+```bash
+cd "$HOME/NECTARJAR-QUEEN-BEE-v1.0.0" && python3 NECTARJAR.py 'https://www.python.org/' --check --lychee-style
+```
+
+Runs the published tool on Python.org. Live output varies by run.
+
+### 3. Install and open the desktop Golden Hive menu
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Hellfire13666/NECTARJAR-QUEEN-BEE/main/INSTALL-DESKTOP.sh | bash
+```
+
+Creates a Linux application-menu entry and launches `HIVE.py` in a terminal. Run this **after step 1**. Existing launchers are preserved; the icon is the standard terminal icon. [Read the launcher source](INSTALL-DESKTOP.sh).
+
+📖 **[Open the Queen Bee Recipe Vault](RECIPES.md)** for these three copy-paste commands, additional public-site examples, and explanations.
 
 ## Quick Start
 
