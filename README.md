@@ -8,6 +8,19 @@
 
 NECTARJAR is a Python website link checker with a honey-gold terminal interface and a Lychee-inspired live status summary.
 
+
+## 🐝 Quick recipes
+
+The approved local edition can be started from the folder containing `NECTARJAR.py`:
+
+```bash
+python3 NECTARJAR.py 'https://www.python.org/' --check --lychee-style
+```
+
+**More beginner examples:** [Open RECIPES.md](RECIPES.md), including a public Facebook Page example, source-status explanations, and privacy rules. The source package is not yet published here, so these commands require the approved local edition.
+
+**Approved repository artwork:** NECTARJAR // QUEEN BEE · Beast Honey Cookie Edition, 1280 × 640, no Rosie. The binary artwork is pending repository upload; this README does not point at an absent image.
+
 ## Release status
 
 The **repository homepage is being prepared**. The approved local edition has been tested, but the complete source package has **not yet been published here**. Do not treat the repository as an installable release until the reviewed source and test suite appear.
